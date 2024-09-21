@@ -1,5 +1,6 @@
 def firstsetbit(n):
     count=0
+    count=1
     while(n):
         if(n&1==1):
             count+=1
